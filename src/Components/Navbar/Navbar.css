@@ -111,7 +111,7 @@ header {
   position: absolute;
   font-weight: 700;
   font-family: "Mulish";
-  top: 8px;
+  top: 13px;
   width: 8px;
   height: 8px;
   background-color: var(--notifications-count);

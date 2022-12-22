@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Sidebar.css";
 import {
   Person1,
@@ -8,7 +8,12 @@ import {
   Person5,
   Person6,
 } from "../../Assets/ImageIndex";
+
 const Sidebar = () => {
+  const [isShown, setIsShown] = useState(false);
+  const handleClick = (event) => {
+    setIsShown((current) => !current);
+  };
   const sideBarData = {
     mainTabs: [
       {
@@ -53,9 +58,19 @@ const Sidebar = () => {
         head: "Games",
         icon: "stadia_controller",
       },
+    ],
+    dependecyTabs: [
       {
-        head: "Show more",
-        icon: "keyboard_arrow_down",
+        head: "Films",
+        icon: "theaters",
+      },
+      {
+        head: "Live",
+        icon: "sensors",
+      },
+      {
+        head: "Sports",
+        icon: "sports_soccer",
       },
     ],
     channels: [
@@ -113,7 +128,39 @@ const Sidebar = () => {
                   </div>
                 );
               })}
+              <div className="sidebarTab">
+                <span
+                  className="sidebarTab material-symbols-rounded"
+                  onClick={handleClick}
+                >
+                  expand_more
+                </span>
+                <p onClick={handleClick}>Show more</p>
+              </div>
             </div>
+            {isShown && (
+              <div className="externaltabContainer">
+                {sideBarData.dependecyTabs.map((tab, i) => {
+                  return (
+                    <div key={i} className={"sidebarTab"}>
+                      <span className="sidebarTab material-symbols-rounded">
+                        {tab.icon}
+                      </span>
+                      {tab.head}
+                    </div>
+                  );
+                })}
+                <div className="sidebarTab">
+                  <span
+                    className="sidebarTab material-symbols-rounded"
+                    onClick={handleClick}
+                  >
+                    expand_less
+                  </span>
+                  <p onClick={handleClick}>Show less</p>
+                </div>
+              </div>
+            )}
             <div className="subscriptions">
               <h2 className="mainSidebarHead">Subscriptions</h2>
               <div className="channelTab">

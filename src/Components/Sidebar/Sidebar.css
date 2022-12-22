@@ -6,7 +6,7 @@
   padding: 30px 12px 0 12px;
   border-bottom: 5px solid transparent;
   border-right: 4px solid transparent;
-  width: 240px;
+  width: 220px;
   height: calc(100vh - 38px);
   font-family: "Roboto";
   color: var(--text-main);
@@ -58,6 +58,11 @@
   height: 30px;
   width: 30px;
   font-size: 24px;
+}
+
+.sidebarTab p {
+  font-size: 16px;
+  margin: 0;
 }
 
 .externaltabContainer {
