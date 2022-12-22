@@ -9,30 +9,26 @@
   --search-query-input: #f5f5f5;
   --profile-symbols: #aaaaaa;
   --notifications-count: #ff0000;
+  --sidebar-text-color: #898989;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
-.material-symbols-rounded{
+.material-symbols-rounded {
   color: var(--profile-symbols);
   font-weight: 600;
-  font-size: 32px;
+  font-size: 28px;
   cursor: pointer;
 }
 
-.material-symbols-rounded.active{
-  font-variation-settings: 
-  'FILL' 0,
-  'wght' 600,
-  'GRAD' 0,
-  'opsz' 48;
+.material-symbols-rounded.active {
+  font-variation-settings: "FILL" 0, "wght" 600, "GRAD" 0, "opsz" 48;
 }
 
-.material-symbols-rounded:hover{
+.material-symbols-rounded:hover {
   color: var(--text-main);
 }
