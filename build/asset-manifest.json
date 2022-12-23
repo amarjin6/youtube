@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/youtube/static/css/main.1e5c5299.css",
+    "main.js": "/youtube/static/js/main.47f879f9.js",
+    "static/media/Video9.png": "/youtube/static/media/Video9.bc934f8bde100f9b2acc.png",
+    "static/media/Video4.png": "/youtube/static/media/Video4.e8363f0f6542262c53f4.png",
+    "static/media/Video11.png": "/youtube/static/media/Video11.444dee32b1f80945c037.png",
+    "static/media/Video3.png": "/youtube/static/media/Video3.5b099fb3158dd390ff24.png",
+    "static/media/Video15.png": "/youtube/static/media/Video15.66e3bd2422708362d3e2.png",
+    "static/media/Video13.png": "/youtube/static/media/Video13.31157b77067e64719d94.png",
+    "static/media/Video10.png": "/youtube/static/media/Video10.73bc1e566ac6b038d84a.png",
+    "static/media/Video2.png": "/youtube/static/media/Video2.db2cfc2d41431a4ac887.png",
+    "static/media/Video5.png": "/youtube/static/media/Video5.302e8d19390e352472d9.png",
+    "static/media/Video8.png": "/youtube/static/media/Video8.a56756b372f59c3b8cb0.png",
+    "static/media/Avatar.png": "/youtube/static/media/Avatar.7cbda25998fabc6105a0.png",
+    "static/media/Video7.png": "/youtube/static/media/Video7.4e4d7b70e33872f8a436.png",
+    "static/media/Person5.png": "/youtube/static/media/Person5.5016200b0568c1922ca7.png",
+    "static/media/Person1.png": "/youtube/static/media/Person1.c8064a0ce29bdedfd6fb.png",
+    "static/media/Video12.png": "/youtube/static/media/Video12.2820c2fc1598dd9e6c17.png",
+    "static/media/Person3.png": "/youtube/static/media/Person3.32a7e578fbcc926a20f8.png",
+    "static/media/Person2.png": "/youtube/static/media/Person2.32e060d439707ca8c7a5.png",
+    "static/media/Video1.png": "/youtube/static/media/Video1.2c713b98a4cc06350b4d.png",
+    "static/media/Person4.png": "/youtube/static/media/Person4.00d5682f0606b93405af.png",
+    "static/media/Person6.png": "/youtube/static/media/Person6.9eb9baab01811ab1beb5.png",
+    "static/media/Video6.png": "/youtube/static/media/Video6.599781427b155040e5d6.png",
+    "static/media/logo.png": "/youtube/static/media/logo.d773e76f7c5c5a4d1ac7.png",
+    "static/media/Video14.png": "/youtube/static/media/Video14.b077d74f67240515843e.png",
+    "index.html": "/youtube/index.html",
+    "main.1e5c5299.css.map": "/youtube/static/css/main.1e5c5299.css.map",
+    "main.47f879f9.js.map": "/youtube/static/js/main.47f879f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e5c5299.css",
+    "static/js/main.47f879f9.js"
+  ]
+}

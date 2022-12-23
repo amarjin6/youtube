@@ -21,6 +21,7 @@ import Video12 from "./Images/Video12.png";
 import Video13 from "./Images/Video13.png";
 import Video14 from "./Images/Video14.png";
 import Video15 from "./Images/Video15.png";
+import Channel1 from "./Images/Channel1.png";
 
 export {
   BlackLogo,
@@ -46,4 +47,5 @@ export {
   Video13,
   Video14,
   Video15,
+  Channel1,
 };

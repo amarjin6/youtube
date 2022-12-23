@@ -42,3 +42,28 @@
   margin-top: 49px;
   margin-bottom: -10px;
 }
+
+.homeDiv .channelImg {
+  margin: 0;
+  margin-top: 49px;
+  margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.homeDiv .channelName {
+  margin-top: -60px;
+  margin-left: 60px;
+  margin-bottom: 5px;
+}
+
+.homeDiv .channelInfo {
+  margin: 0;
+  margin-top: -31px;
+  margin-left: 230px;
+  margin-bottom: 10px;
+  color: var(--home--video--sign-color);
+  font-size: 16px;
+  line-height: 20px;
+}

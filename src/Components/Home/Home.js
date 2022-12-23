@@ -18,6 +18,7 @@ import {
   Video13,
   Video14,
   Video15,
+  Channel1,
 } from "../../Assets/ImageIndex";
 
 const Home = () => {
@@ -167,7 +168,14 @@ const Home = () => {
             return <Video video={video} key={video.image} />;
           })}
         </div>
-        <h2>Food & Drink</h2>
+        <img
+          src={Channel1}
+          alt="Food & Drink"
+          title="Food & Drink"
+          className="channelImg"
+        />
+        <h2 className="channelName">Food & Drink</h2>
+        <p className="channelInfo">Recommended channel for you</p>
         <div className="videoContainer">
           {HomeData.foodNdrink_videos.map((video) => {
             return <Video video={video} key={video.image} />;
