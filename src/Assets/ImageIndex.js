@@ -21,6 +21,10 @@ import Video12 from "./Images/Video12.png";
 import Video13 from "./Images/Video13.png";
 import Video14 from "./Images/Video14.png";
 import Video15 from "./Images/Video15.png";
+import Video16 from "./Images/Video16.png";
+import Video17 from "./Images/Video17.png";
+import Video18 from "./Images/Video18.png";
+import Video19 from "./Images/Video19.png";
 import Channel1 from "./Images/Channel1.png";
 
 export {
@@ -47,5 +51,9 @@ export {
   Video13,
   Video14,
   Video15,
+  Video16,
+  Video17,
+  Video18,
+  Video19,
   Channel1,
 };

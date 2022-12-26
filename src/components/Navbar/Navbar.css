@@ -1,0 +1,120 @@
+header {
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+}
+
+.header-container {
+  margin: 0;
+  padding: 8px 16px;
+  background-color: var(--secondary-color);
+  font-family: "Roboto";
+  font-weight: 400;
+  width: 100%;
+  height: 58px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-main);
+}
+
+.header-container div {
+  display: flex;
+  align-items: center;
+}
+
+.header-container div:nth-child(1) img {
+  cursor: pointer;
+  padding: 0 18px;
+  height: 24px;
+}
+
+.hamburger {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+}
+
+.hamburger div {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger:hover {
+  background-color: var(--secondary-light-color);
+}
+
+.hamburger div span {
+  width: 18px;
+  height: 1px;
+  background-color: var(--text-main);
+}
+
+.hamburger div span:nth-child(2) {
+  margin: 4px 0;
+}
+
+.search-bar {
+  display: flex;
+  align-self: flex-start;
+  height: 44px;
+  position: relative;
+  width: 30%;
+}
+
+.search-query-input {
+  width: 100%;
+  height: 34px;
+  background: var(--search-query-input);
+  outline: none;
+  border: none;
+  border-radius: 26px;
+  padding: 0 56px 0 24px;
+  font-size: 12px;
+}
+
+.search-query-submit {
+  width: 56px;
+  height: 44px;
+  margin-left: -56px;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.search-query-submit:hover {
+  cursor: pointer;
+}
+
+.header-container div:nth-child(3) img {
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 32px;
+  margin-left: 12px;
+}
+
+.notifications-count {
+  position: absolute;
+  font-weight: 700;
+  font-family: "Mulish";
+  top: 14px;
+  width: 8px;
+  height: 8px;
+  background-color: var(--notifications-count);
+  color: var(--secondary-color);
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 50%;
+  margin-left: 12px;
+}
+
+.profile-container span {
+  margin-right: 28px;
+  cursor: pointer;
+  padding-top: 10px;
+}
