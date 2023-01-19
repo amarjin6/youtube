@@ -114,7 +114,7 @@ const Sidebar = () => {
               <span className="sidebar-tab material-symbols-rounded">
                 {tab.icon}
               </span>
-              {tab.head}
+              <p className="sidebar-text">{tab.head}</p>
             </div>
           ))}
         </div>
@@ -124,7 +124,7 @@ const Sidebar = () => {
               <span className="sidebar-tab material-symbols-rounded">
                 {tab.icon}
               </span>
-              {tab.head}
+              <p className="sidebar-text">{tab.head}</p>
             </div>
           ))}
           <div className="sidebar-tab">
@@ -134,7 +134,9 @@ const Sidebar = () => {
             >
               expand_more
             </span>
-            <p onClick={handleClick}>Show more</p>
+            <p className="sidebar-text" onClick={handleClick}>
+              Show more
+            </p>
           </div>
         </div>
         {isShown && (
@@ -144,7 +146,7 @@ const Sidebar = () => {
                 <span className="sidebar-tab material-symbols-rounded">
                   {tab.icon}
                 </span>
-                {tab.head}
+                <p className="sidebar-text">{tab.head}</p>
               </div>
             ))}
             <div className="sidebar-tab">
@@ -154,7 +156,9 @@ const Sidebar = () => {
               >
                 expand_less
               </span>
-              <p onClick={handleClick}>Show less</p>
+              <p className="sidebar-text" onClick={handleClick}>
+                Show less
+              </p>
             </div>
           </div>
         )}
@@ -175,7 +179,7 @@ const Sidebar = () => {
           <div className="settings-tab-container material-symbols-rounded">
             settings
           </div>
-          Settings
+          <p className="sidebar-text">Settings</p>
         </div>
       </div>
     </div>

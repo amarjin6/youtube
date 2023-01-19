@@ -1,0 +1,22 @@
+/* .channel-container {
+  position: relative;
+  padding-top: 80px;
+  padding-left: 220px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: var(--secondary-color);
+  color: var(--home-text--color);
+}
+
+.channel-banner {
+  width: 100%;
+  display: flex;
+  position: relative;
+} */
+
+img {
+  width: 280px;
+  height: 280px;
+}

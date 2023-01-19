@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { BlackLogo, Avatar } from "../../Assets/ImageIndex";
 import SvgIndex from "../../Assets/SvgIndex";
@@ -9,6 +9,8 @@ const handleSidebar = () => {
 };
 
 const Navbar = () => {
+  const [openNav, setOpenNav] = useState(false);
+
   return (
     <header>
       <div className="header-container">
@@ -40,12 +42,29 @@ const Navbar = () => {
         <div className="profile-container">
           <span className="material-symbols-rounded">video_call</span>
           <span className="material-symbols-rounded">apps</span>
-          <span className="material-symbols-rounded">
+          <span
+            className="material-symbols-rounded"
+            onClick={() => setOpenNav(!openNav)}
+          >
             notifications
             <div className="notifications-count">3</div>
           </span>
           <img src={Avatar} alt="Avatar Logo" title="Avatar" />
         </div>
+
+        {openNav && (
+          <div className="notifications-list">
+            <h2 className="notifications-heading">Notifications</h2>
+            <div className="material-symbols-rounded">settings</div>
+            <div className="horizontal-line"></div>
+            <div className="notifications-tabs">
+              <div className="notification-tab">
+                <span className="material-symbols-rounded">account_box</span>
+                <p>Your Channel</p>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </header>
   );

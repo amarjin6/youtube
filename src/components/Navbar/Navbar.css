@@ -118,3 +118,31 @@ header {
   cursor: pointer;
   padding-top: 10px;
 }
+
+.notifications-list {
+  position: absolute;
+  top: 60px;
+  padding: 10px 0;
+  box-sizing: border-box;
+  right: 140px;
+  background-color: var(--secondary-color);
+  color: var(--text-main);
+  font-family: "Roboto";
+}
+
+.notifications-heading {
+  display: flex;
+  align-items: center;
+  padding: 7px 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.horizontal-line {
+  width: 100%;
+  background-color: var(--profile-symbols);
+  height: 1px;
+  margin: 8px 0;
+  position: relative;
+  border-radius: 4px;
+}
